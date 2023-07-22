@@ -30,6 +30,22 @@
     "description" : "Operations available to regular developers"
   } ],
   "paths" : {
+    "/" : {
+      "get" : {
+        "tags" : [ "developers" ],
+        "summary" : "gets hello message",
+        "operationId" : "getHello",
+        "description" : "You can get hello in the system\n",
+        "responses" : {
+          "200" : {
+            "description" : "ok"
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      }
+    },
     "/api" : {
       "get" : {
         "tags" : [ "developers" ],
