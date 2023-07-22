@@ -38,7 +38,14 @@
         "description" : "You can get hello in the system\n",
         "responses" : {
           "200" : {
-            "description" : "ok"
+            "description" : "ok",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "string"
+                }
+              }
+            }
           },
           "400" : {
             "description" : "bad input parameter"
