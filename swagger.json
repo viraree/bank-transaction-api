@@ -181,13 +181,7 @@
         }
       },
       "Str" : {
-        "type" : "object",
-        "properties" : {
-          "id" : {
-            "type" : "integer",
-            "format" : "int64"
-          }
-        }
+        "type" : "object"
       }
     }
   }
