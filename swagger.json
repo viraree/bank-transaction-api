@@ -179,6 +179,15 @@
             "$ref" : "#/components/schemas/User"
           }
         }
+      },
+      "Str" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "integer",
+            "format" : "int64"
+          }
+        }
       }
     }
   }
