@@ -175,7 +175,7 @@
             "type" : "string",
             "example" : "Online payment CHF"
           },
-          "manufacturer" : {
+          "User" : {
             "$ref" : "#/components/schemas/User"
           }
         }
