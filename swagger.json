@@ -181,7 +181,7 @@
         }
       },
       "Str" : {
-        "type" : "object"
+        "type" : "string"
       }
     }
   }
