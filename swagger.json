@@ -203,17 +203,19 @@
           }
         }
       },
-      "Str" : {
-        "type" : "string"
-      },
-      "Schema" : {
-        "type" : "object",
+      "Account" : {
         "properties" : {
           "id" : {
             "type" : "integer",
-            "format" : "int64"
+            "format" : "int6"
+          },
+          "User" : {
+            "$ref" : "#/components/schemas/User"
           }
         }
+      },
+      "Str" : {
+        "type" : "string"
       }
     }
   }
