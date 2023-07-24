@@ -211,6 +211,12 @@
           },
           "User" : {
             "$ref" : "#/components/schemas/User"
+          },
+          "Balance" : {
+            "type" : "number"
+          },
+          "Currency" : {
+            "type" : "string"
           }
         }
       },
